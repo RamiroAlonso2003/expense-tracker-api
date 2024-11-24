@@ -30,3 +30,5 @@ DELETE: Eliminar un gasto.
 Base de datos:
 
 Definir tablas para usuarios y gastos, con relaciones (user_id en la tabla de gastos).
+
+comando Docker: docker run --name some-postgres -e POSTGRES_USER=fazt -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432 -d postgr
